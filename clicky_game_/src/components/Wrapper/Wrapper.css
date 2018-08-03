@@ -1,0 +1,9 @@
+.wrapper {
+  background: rgb(148, 190, 218);
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}

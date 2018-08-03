@@ -1,0 +1,12 @@
+.jumbotron.jumbotron-fluid {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.navbar{
+  width: 100%;
+}
+.card-text{
+  font-size: 20px;
+  font-weight: bold;
+}

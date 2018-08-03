@@ -1,0 +1,12 @@
+.jumbotron.jumbotron-fluid{
+  background-image: url("https://vignette.wikia.nocookie.net/hunterxhunter/images/f/fc/Greed_island_card_collecting.png/revision/latest?cb=20130217111425");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+}
+.container{
+  color: whitesmoke;
+  background: rgb(22, 20, 20);
+  text-align: center;
+}
