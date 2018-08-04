@@ -6,7 +6,6 @@ import Character from "./components/Character/Character";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
     characters,
     count: 0,
@@ -26,7 +25,6 @@ class App extends Component {
   };
 
   handleIncrement = id => {
-    //s We always use the setState method to update a component's state
     const arr = this.state.ids;
     this.state.ids.push(id);
     console.log(this.state.ids);
@@ -47,7 +45,6 @@ class App extends Component {
     }
   };
 
-  // Map over this.state.friends and render a FriendCard component for each character object
   render() {
     const shuffledCharacters = this.shuffleArray(this.state.characters);
     return (
