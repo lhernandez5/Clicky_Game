@@ -50,7 +50,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Header>
-          <div className="card-text">Click Count: {this.state.count}{"    "}|{"   "}Score Total: {this.state.total}</div>
+          <div className="card-text">Score: {this.state.count}{"    "}|{"   "}Top Score: {this.state.total}</div>
         </Header>
         {shuffledCharacters.map(character => (
           <Character
