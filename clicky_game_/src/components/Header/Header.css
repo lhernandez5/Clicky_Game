@@ -1,12 +1,30 @@
-.jumbotron.jumbotron-fluid{
+.jumbotron.jumbotron-fluid {
   background-image: url("https://vignette.wikia.nocookie.net/hunterxhunter/images/f/fc/Greed_island_card_collecting.png/revision/latest?cb=20130217111425");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
-.container{
+.container {
   color: whitesmoke;
   background: rgb(22, 20, 20);
   text-align: center;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+h1.display-4{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.scoreDiv {
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  border-radius: 5px;
 }

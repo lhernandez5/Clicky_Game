@@ -27,7 +27,7 @@ class App extends Component {
 
   handleIncrement = id => {
     //s We always use the setState method to update a component's state
-    const arr =this.state.ids;
+    const arr = this.state.ids;
     this.state.ids.push(id);
     console.log(this.state.ids);
 
@@ -43,7 +43,7 @@ class App extends Component {
     } else if (number > 1) {
       this.setState({ count: 0 });
       this.setState({ total: this.state.total + 1 });
-      this.setState({ids:[]});
+      this.setState({ ids: [] });
     }
   };
 
@@ -52,9 +52,9 @@ class App extends Component {
     const shuffledCharacters = this.shuffleArray(this.state.characters);
     return (
       <Wrapper>
-        <span className="card-text">Click Count: {this.state.count}</span>
-        <span className="card-text">Score Total: {this.state.total}</span>
-        <Header />
+        <Header>
+          <div className="card-text">Click Count: {this.state.count}{"    "}|{"   "}Score Total: {this.state.total}</div>
+        </Header>
         {shuffledCharacters.map(character => (
           <Character
             id={character.id}
