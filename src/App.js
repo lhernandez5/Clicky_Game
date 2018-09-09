@@ -50,16 +50,22 @@ class App extends Component {
     return (
       <Wrapper>
         <Header>
-          <div className="card-text">Score: {this.state.count}{"    "}|{"   "}Top Score: {this.state.total}</div>
+          <div className="card-text">
+            Score: {this.state.count}
+            {"    "}|{"   "}
+            Top Score: {this.state.total}
+          </div>
         </Header>
-        {shuffledCharacters.map(character => (
-          <Character
-            id={character.id}
-            key={character.id}
-            image={character.image}
-            handleIncrement={this.handleIncrement}
-          />
-        ))}
+        <Wrapper>
+          {shuffledCharacters.map(character => (
+            <Character
+              id={character.id}
+              key={character.id}
+              image={character.image}
+              handleIncrement={this.handleIncrement}
+            />
+          ))}
+        </Wrapper>
       </Wrapper>
     );
   }
