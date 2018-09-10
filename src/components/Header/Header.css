@@ -31,7 +31,6 @@
 
 @media screen and (max-width: 414px) { 
   .scoreDiv{
-     /* margin: 0% 10% 0% 0% !important; */
      margin: 0% 20% 0% 10%;
      width: 300px;
    }
