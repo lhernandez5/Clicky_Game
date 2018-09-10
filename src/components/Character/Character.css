@@ -19,8 +19,12 @@
 }
 
 @media screen and (max-width: 375px) { 
-  /* .card{
-    width: 100px !important;
-    position: absolute !important;
-  } */
-}
+ .img.clickItem{
+    width: 33.33% !important;
+    height: 10%;
+  }
+  .card {
+    width: 33.33% !important;
+    height: 10% !important;
+  }
+} 

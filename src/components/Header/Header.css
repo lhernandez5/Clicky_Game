@@ -16,15 +16,20 @@
   margin-top: 5%;
   border-radius: 5px;
 }
-h1.display-4{
+.title{
   font-family: 'Rubik Mono One', sans-serif;
+  font-size: 50px;
 }
 .scoreDiv {
   color: whitesmoke;
   background-color: black;
   text-align: center;
-  width: 40%;
-  margin-left: 30%;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  border-radius: 5px;
+  width: 400px;
+  margin: 0% 60% 0% 35%;
 }
+
+@media screen and (max-width: 414px) { 
+  .scoreDiv{
+     margin: 0% 50% 0% 1% !important;
+   }
+ } 
