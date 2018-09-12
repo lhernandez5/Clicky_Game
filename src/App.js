@@ -52,8 +52,9 @@ class App extends Component {
         <Header>
           <div className="card-text">
             Score: {this.state.count}
-            {"    "}|{"   "}
-            Top Score: {this.state.total}
+            {"    "}
+            {/* |{"   "} */}
+            {/* Top Score: {this.state.total} */}
           </div>
         </Header>
         <Wrapper>
