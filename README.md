@@ -7,3 +7,4 @@ The application keeps track of the user's score. The user's score should be incr
 <br><br>
 Every time an image is clicked, the images rendered to the page shuffle themselves in a random order.
 Once the user's score is reset after an incorrect guess, the game restarts.
+Deployed app: https://lhernandez5.github.io/Clicky_Game/
